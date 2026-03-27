@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
     decrypted_des = des_decrypt(iv_des, ct_des, des_key)
     print(f"  Decrypted        : {decrypted_des}")
-    print(f"  ✅ Match         : {message == decrypted_des}\n")
+    print(f"   Match         : {message == decrypted_des}\n")
 
     # Wrong Key Demo
 
